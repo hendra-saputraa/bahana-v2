@@ -2,14 +2,14 @@
 
 import Box from '@/components/Box';
 
-import { ScaleLoader } from 'react-spinners';
-
-const Loading = () => {
+const Error = () => {
   return (
     <Box className="h-full flex items-center justify-center">
-      <ScaleLoader color="#eab308" />
+      <div className="text-neutral-400">
+        Ada yang salah namun bukan perasaan.
+      </div>
     </Box>
   );
 }
 
-export default Loading;
+export default Error;

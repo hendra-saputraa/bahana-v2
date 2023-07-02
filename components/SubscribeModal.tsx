@@ -111,8 +111,8 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
 
   return (
     <Modal
-      title="Hanya untuk pengguna sultan"
-      description="Dengarkan musik dengan Sultan Bahana!"
+      title="Hanya untuk pengguna Sultan"
+      description="Unggah musikmu dengan Sultan Bahana!"
       isOpen={subscribeModal.isOpen}
       onChange={onChange}
     >

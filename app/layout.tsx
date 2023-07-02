@@ -12,6 +12,12 @@ import getActiveProductsWithPrices from '@/actions/getActiveProductsWithPrices';
 
 const font = Figtree({ subsets: ['latin'] })
 
+export const metadata = {
+  title: 'Bahana V2',
+  description: 'Platform musik yang mengguncang jiwa anda.',
+  dicoding_email: 'muhhendrasaputra93@gmail.com',
+}
+
 export const revalidate = 0;
 
 export default async function RootLayout({
@@ -24,7 +30,6 @@ export default async function RootLayout({
   
   return (
     <html lang="en">
-      <head />
       <body className={font.className}>
         <ToasterProvider />
         <SupabaseProvider>
