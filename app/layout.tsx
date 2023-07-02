@@ -14,7 +14,7 @@ const font = Figtree({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Bahana V2',
-  description: 'Platform don't musik yang mengguncang jiwa anda.',
+  description: 'Platform don\'t musik yang mengguncang jiwa anda.',
   other: { 
     dicoding_email: 'muhhendrasaputra93@gmail.com',
   },
