@@ -34,8 +34,9 @@ const AuthModal = () => {
 
   return (
     <Modal
-      title="Hi Penikmat Musik!"
-      description="Masuk ke Akun Anda"
+      title="Hi Siapapun Kamu👋"
+      description="Ekspresikan dirimu melalui sebuah musik!"
+      description2="Masuk atau Buat akun terlebih dahulu yaa"
       isOpen={isOpen}
       onChange={onChange}
     >
