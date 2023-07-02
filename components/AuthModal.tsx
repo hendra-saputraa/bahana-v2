@@ -34,7 +34,7 @@ const AuthModal = () => {
 
   return (
     <Modal
-      title="Hi Siapapun Kamu👋"
+      title="Hi Siapapun Kamu 👋"
       description="Ekspresikan dirimu melalui sebuah musik!"
       description2="Masuk atau Buat akun terlebih dahulu yaa"
       isOpen={isOpen}
@@ -42,7 +42,6 @@ const AuthModal = () => {
     >
       <Auth
         theme="dark"
-        magicLink
         providers={["github"]}
         supabaseClient={supabaseClient}
         appearance={{
