@@ -68,7 +68,7 @@ const Modal: React.FC<ModalProps> = ({
           </Dialog.Title>
           <Dialog.Description
             className="
-              mb-5
+              mb-1
               text-sm
               leading-normal
               text-center
