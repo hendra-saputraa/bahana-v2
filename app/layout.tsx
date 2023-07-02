@@ -16,7 +16,9 @@ export const metadata = {
   title: 'Bahana V2',
   description: 'Platform musik yang mengguncang jiwa anda.',
   other: { 
-    pinterest: "nopin" 
+    dicoding: {
+      email: 'muhhendrasaputra93@gmail.com',
+    },
   },
 }
 
