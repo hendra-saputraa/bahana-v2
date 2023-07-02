@@ -7,7 +7,7 @@ import { ScaleLoader } from 'react-spinners';
 const Loading = () => {
   return (
     <Box className="h-full flex items-center justify-center">
-      <ScaleLoader color="#eab308" size="40" />
+      <ScaleLoader color="#eab308" />
     </Box>
   );
 }
