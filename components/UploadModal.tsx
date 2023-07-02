@@ -122,6 +122,7 @@ const UploadModal = () => {
     <Modal
       title="Tambah Musik Kesukaanmu!"
       description="Unggah dengan format mp3"
+      description2="Gunakan cover yang sesuai dengan lagu! Boleh meme dsb"
       isOpen={uploadModal.isOpen}
       onChange={onChange}
     >
